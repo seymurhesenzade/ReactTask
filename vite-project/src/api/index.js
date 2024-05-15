@@ -22,3 +22,15 @@ export async function getDataById(endpoint,id){
         console.log(error);
     }
 } 
+
+// delete data by id
+
+export  async function deleteDataById(endpoint, id){
+    try {
+        const response = await axios.delete(`${BASE_URL}/${endpoint}/${id}`)
+        return response;
+    } catch (error) {
+        console.log(error)
+    }
+}
+

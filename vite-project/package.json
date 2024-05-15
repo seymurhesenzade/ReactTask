@@ -12,6 +12,7 @@
   "dependencies": {
     "antd": "^5.17.2",
     "axios": "^1.6.8",
+    "json-server": "^1.0.0-beta.0",
     "nanoid": "^5.0.7",
     "node-sass": "^9.0.0",
     "react": "^18.2.0",
